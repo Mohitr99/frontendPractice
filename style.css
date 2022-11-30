@@ -1,0 +1,84 @@
+.navbar-brand {
+    letter-spacing: 0.2rem;
+}
+
+.bi-bag-check-fill {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(214, 71, 71);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-style {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+                url("images/main.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
+.btn-style{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:550px) {
+    .styl{
+        text-align: center;
+    }
+    .styl h1{
+        padding: 0 !important;
+    }
+    .styl P{
+        padding:1rem 0 0 0 !important;
+    }
+    .styl button{
+        margin:1rem 0 0 0 !important;
+    }   
+}
+
+.sp-style{
+    font-size: 12px;
+}
+
+.icn-style{
+    font-size: 26px;
+    color: rgb(206, 70, 70);
+}
+
+@media screen and (max-width:767px) {
+    .cntr-div{
+        text-align: center;
+    }
+}
+
+.fotter-img{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
+                url("images/footer.jpg");
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+
+.ul-style{
+    list-style: none;
+    padding: 0;
+}
+
+.ul-style a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.ul-style a:hover{
+    color: rgb(158, 143, 143);
+}
+
